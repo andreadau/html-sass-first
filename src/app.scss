@@ -1,0 +1,25 @@
+// Scss Variable
+$bg_card_color : #F5F5F5;
+$color_text: #755c48;
+
+body {
+    background-color: beige;
+}
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text-card {
+    background-color: $bg_card_color;
+    width: 800px;
+    text-align: center;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    border: 2px solid $color_text;
+}
+h1, h2, h3, p {
+    color: $color_text;
+}
